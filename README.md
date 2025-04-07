@@ -1,79 +1,70 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Calculadora React Native
 
-# Getting Started
+Este é um projeto de uma calculadora simples desenvolvida em **React Native**. Ele demonstra conceitos básicos de desenvolvimento mobile, como componentes reutilizáveis, gerenciamento de estado e estilização.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Funcionalidades
 
-## Step 1: Start the Metro Server
+- Operações básicas: soma, subtração, multiplicação e divisão.
+- Interface responsiva e adaptada para dispositivos móveis.
+- Botões interativos com diferentes tamanhos e estilos.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Tecnologias Utilizadas
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- **React Native**: Framework para desenvolvimento de aplicativos móveis.
+- **JavaScript**: Linguagem principal do projeto.
+- **React Hooks**: Para gerenciamento de estado e lógica.
+- **StyleSheet**: Para estilização dos componentes.
 
-```bash
-# using npm
-npm start
+## Como Executar o Projeto
 
-# OR using Yarn
-yarn start
-```
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/calculadora.git
+   ```
 
-## Step 2: Start your Application
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd calculator
+   ```
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-### For Android
+4. Inicie o Metro Bundler:
+   ```bash
+   npm start
+   ```
 
-```bash
-# using npm
-npm run android
+5. Execute o aplicativo:
 
-# OR using Yarn
-yarn android
-```
+   - **Android**:
+     ```bash
+     npm run android
+     ```
 
-### For iOS
+   - **iOS**:
+     ```bash
+     npm run ios
+     ```
 
-```bash
-# using npm
-npm run ios
+## Estrutura do Projeto
 
-# OR using Yarn
-yarn ios
-```
+- `/src/components`: Contém os componentes reutilizáveis, como botões e display.
+  - **Button.js**: Componente para os botões da calculadora.
+  - **Display.js**: Componente para exibir os valores e resultados.
+- `/App.js`: Arquivo principal que gerencia a lógica da calculadora.
+- `/metro.config.js`: Configuração do Metro Bundler.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## Captura de Tela
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+![Calculadora](https://via.placeholder.com/300x500.png?text=Calculadora+React+Native)
 
-## Step 3: Modifying your App
+## Autor
 
-Now that you have successfully run the app, let's modify it.
+- [@terukimateus](https://github.com/terukimateus)
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+## Licença
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
